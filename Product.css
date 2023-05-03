@@ -1,0 +1,131 @@
+.product-container{
+   display: flex;
+   width: 100%;
+   justify-content: center;
+padding: 30px;   
+box-sizing: border-box;
+
+}
+.product-container a{
+    text-decoration: none;
+    color:black
+}
+.product-main{
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin: 80px 20px;
+        gap:30px;
+}
+
+.list-product-main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin-top:80px;
+    align-items: center;
+    
+}
+
+.list-view{
+    align-self: flex-end;
+    float: right;
+    box-sizing: border-box;
+    padding:10px;
+    display: flex;
+    width: 110px;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+    border-radius: 20px;
+
+}
+.list-view:hover{
+cursor: pointer;
+background-color: rgb(178, 178, 178);
+color: rgb(0, 0, 0);
+transition: 1s;
+}
+
+.product-tile{
+    height: 300px;
+    border: 1px solid rgb(224, 221, 221);
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 3px 0.1px rgb(236, 123, 100);
+    border-radius: 10px;
+    
+}
+.product-tile:hover,.list-product-tile:hover{
+    box-shadow: 1px 1px 10px 2px rgb(236, 123, 100);;
+}
+
+.list-product-tile{
+    
+    height: 200px;
+    border: 1px solid rgb(224, 221, 221);
+    width: 800px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap:30px;
+    box-shadow: 1px 1px 10px 0.8px rgb(216, 216, 216);
+    border-radius: 10px;
+}
+.product-tile img{
+    height: 40%;
+}
+
+.list-product-tile img{
+    height: 80%;
+    width: 20%;
+}
+.product-title{
+    /* height: 10%; */
+    height:32px;
+    text-align: center;
+    font-size: 13px;
+    overflow: hidden;
+}
+.product-price{
+    text-align: center;
+    margin: 0px;
+    padding: 0;
+}
+/* .product-description{
+    height: 20%;
+    font-size: 10px;
+    overflow: hidden;
+    
+} */
+
+.product-tile img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.product-button,.list-product-button{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(236, 123, 100);
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgb(209, 209, 209);
+    
+}
+.product-button:hover,.list-product-button:hover{
+    background-color: black;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+.product-sub-main{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

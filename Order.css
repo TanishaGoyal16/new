@@ -1,0 +1,13 @@
+.order-main{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.order-list{
+    border: 1px solid rgb(143, 143, 143);
+    box-shadow: 1px 1px 10px 0.5px rgb(216, 216, 216);
+    padding: 30px;
+    width: 250px;
+    
+}

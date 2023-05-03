@@ -1,0 +1,25 @@
+.product-details-container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.product-details-main{
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+.product-image{
+}
+.product-image img{ 
+    height: 400px;
+}
+.product-details{
+    width: 40%;
+}
+.product-details-title{
+    font-size: 25px;
+}
+.product-details-price{
+    font-size: 20px;
+}
